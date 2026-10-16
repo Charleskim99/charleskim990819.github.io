@@ -8,6 +8,8 @@ category: engineering
 related_publications: false
 ---
 
+> **Architecture note:** This page describes the earlier AD5941/ESP32-C6 toolkit. The current [STK RevM20 hardware case study](/projects/stk-revm20/) uses continuous discrete TIAs, an ADS131M04, DAC80508 and ESP32-S3. The historical measurements below do not qualify RevM20 performance.
+
 <div class="ll-role">
 <div class="ll-role-k">My role</div>
 <div><p>I am building this instrument myself, working from the published literature on AD5941-based portable potentiostats.</p></div>
@@ -26,12 +28,12 @@ A **palm-sized, BLE-enabled, 4-channel electrochemical sensor toolkit (STK)** bu
 
 ## Firmware status
 
-| Mode | Status |
-|---|---|
+| Mode               | Status                                                                                        |
+| ------------------ | --------------------------------------------------------------------------------------------- |
 | Cyclic voltammetry | Phase 1 complete (clean duck-shape on standard ferrocyanide, dEp limited by carbon electrode) |
-| Amperometry | In progress (current focus, May 2026) |
-| OCP / ISE (Na⁺) | Next milestone |
-| EIS | Validated against benchtop potentiostat |
+| Amperometry        | In progress (current focus, May 2026)                                                         |
+| OCP / ISE (Na⁺)    | Next milestone                                                                                |
+| EIS                | Validated against benchtop potentiostat                                                       |
 
 ## DIY screen-printed electrodes
 
